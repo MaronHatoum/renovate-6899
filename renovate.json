@@ -5,4 +5,5 @@
       "groupName": "all deps",
       "matchPaths": ["composer.json"]
     }
+    ]
 }
