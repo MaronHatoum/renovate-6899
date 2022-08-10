@@ -1,2 +1,8 @@
 {
+  "ignoreUnstable": false,
+  "packageRules": [
+    {
+      "groupName": "all deps",
+      "matchPaths": ["composer.json"]
+    }
 }
