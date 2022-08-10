@@ -2,15 +2,8 @@
   "ignoreUnstable": false,
   "packageRules": [
     {
-      "groupName": "all deps",
-      "matchPaths": ["+(composer.json)"]
-    },
-    {
       "matchPackageNames": ["drupal/media_bulk_upload"],
-       "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ]
+      "matchUpdateTypes": ["minor","patch"]
     }
     
   ]
