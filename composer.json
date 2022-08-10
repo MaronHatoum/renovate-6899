@@ -1,0 +1,39 @@
+{
+  "name": "renovate/example",
+  "description": "Project template",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Example"
+    }
+  ],
+  "support": {},
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "drupal/core": "~8.9.0",
+    "drupal/media_bulk_upload": "~1.0.0-alpha24"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "./scripts/composer/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "platform": {
+      "php": "7.3"
+    }
+  }
+}
