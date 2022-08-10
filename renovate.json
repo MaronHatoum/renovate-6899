@@ -6,7 +6,7 @@
       "matchPaths": ["+(composer.json)"]
     },
     {
-      "matchPackageNames": ["media_bulk_upload"],
+      "matchPaths": ["+(composer.json)"],
       "allowedVersions": "<2.0"
     }
   ]
