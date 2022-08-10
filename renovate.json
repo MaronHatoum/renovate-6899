@@ -5,6 +5,5 @@
       "matchPackageNames": ["media_bulk_upload"],
       "allowedVersions": "<=1.0.1"
     }
-    
   ]
 }
