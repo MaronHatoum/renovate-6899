@@ -6,7 +6,7 @@
       "matchPaths": ["+(composer.json)"]
     },
     {
-      "matchPackageNames": ["drupal/media_bulk_upload"],
+      "matchPackageNames": ["media_bulk_upload"],
       "allowedVersions": "<1.0.0-alpha28"
     }
   ]
