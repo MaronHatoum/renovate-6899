@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["drupal/media_bulk_upload"],
-      "matchUpdateTypes": ["minor","patch"]
+      "allowedVersions": "<=1.0-alpha28"
     }
     
   ]
